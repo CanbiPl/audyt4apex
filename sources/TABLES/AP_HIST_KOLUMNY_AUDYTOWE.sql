@@ -1,0 +1,15 @@
+--------------------------------------------------------
+--  DDL for Table AP_HIST_KOLUMNY_AUDYTOWE
+--------------------------------------------------------
+
+  CREATE TABLE "AP_HIST_KOLUMNY_AUDYTOWE" 
+   (	"ID_AP_HIST_KOLUMNY_AUDYTOWE" NUMBER, 
+	"TABELA" VARCHAR2(1000 BYTE), 
+	"KOLUMNA" VARCHAR2(1000 BYTE), 
+	"TYP_DANYCH" VARCHAR2(50 BYTE), 
+	"CZY_AUDYTOWAC" VARCHAR2(3 BYTE) DEFAULT 'TAK', 
+	"AUDYT_USR_INS" VARCHAR2(60 BYTE), 
+	"AUDYT_TS_INS" TIMESTAMP (6), 
+	"AUDYT_USR_UPD" VARCHAR2(260 BYTE), 
+	"AUDYT_TS_UPD" TIMESTAMP (6)
+   ) ;
