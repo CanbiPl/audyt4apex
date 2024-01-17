@@ -5,7 +5,7 @@
 
 ## Overview
 
-Pakiet pozwala na parametryzowanie poprzez wpisy w tabeli konfiguracyjnej, które kolumnych wybranych tabel maja być autytowane i historyzowane.;
+Pakiet pozwala poprzez wpisy w tabeli konfiguracyjnej na parametryzację, które kolumny wybranych tabel mają być autytowane i historyzowane.;
 
 
 #### All features:
