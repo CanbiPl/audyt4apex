@@ -1,13 +1,11 @@
 # audyt4apex
 
-![](https://img.shields.io/badge/APEX-18.2-success.svg) ![](https://img.shields.io/badge/APEX-19.1-success.svg) ![](https://img.shields.io/badge/APEX-19.2-success.svg) ![](https://img.shields.io/badge/APEX-20.1-success.svg) ![](https://img.shields.io/badge/APEX-20.2-success.svg)
-![](https://img.shields.io/badge/Oracle-11g-success.svg) ![](https://img.shields.io/badge/Oracle-12c-success.svg)  ![](https://img.shields.io/badge/Oracle-18c-success.svg)
+![](https://img.shields.io/badge/Oracle-12c-success.svg)  ![](https://img.shields.io/badge/Oracle-18c-success.svg) ![](https://img.shields.io/badge/Oracle-19c-success.svg) ![](https://img.shields.io/badge/Oracle-21c-success.svg)
 
 
 ## Overview
 
-The package with dedicated tables can help to log application and/or page items as good as collections in APEX.
-Needs grant for READ on APEX_VERSION_SCHEMA.wwv_flow_data for example: grant select on apex_180200.wwv_flow_data to my_db_user;
+Pakiet pozwala na parametryzowanie poprzez wpisy w tabeli konfiguracyjnej, które kolumnych wybranych tabel maja być autytowane i historyzowane.;
 
 
 #### All features:
@@ -20,17 +18,18 @@ Needs grant for READ on APEX_VERSION_SCHEMA.wwv_flow_data for example: grant sel
 
 ## Pre-requisites
 
-- **Oracle Database 11.2g** or later (not tested on earlier versions).
+- **Oracle Database 12c** lub późniejsza (nie działa na wczesniejszych wersjach ze wzgledu na zmienę w 12c dot. kolumny Identity).
 
-- **Oracle Application Express 18.2** or later (no extra grants needed).
+- **Oracle Application Express nie jest wymagany natomiast dla nowszych wersji APEX brak natywnej historyzacji (została wyłączona w Quick sql).
 
-Wymaga grantów: GRANT CREATE TRIGGER,CREATE TABLE,CREATE SEQUENCE TO "SCHEMAT";  
+Wymaga grantów: GRANT CREATE TRIGGER,CREATE TABLE,CREATE SEQUENCE DLA "WŁASNEGO SCHEMATU";  
 
 
 ## Installation instructions
 
-1. Download the latest release
-2. Install on your database schema
+1. Pobierz najnowsza wersję
+2. Nadaj uprawnienia do w/w operacji
+3. Zainstaluj na swoich schemacie danych
 
 
 ## Releases
