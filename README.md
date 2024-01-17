@@ -5,7 +5,7 @@
 
 ## Overview
 
-Pakiet pozwala poprzez wpisy w tabeli konfiguracyjnej na parametryzację, które kolumny wybranych tabel mają być autytowane i historyzowane.;
+Pakiet pozwala na parametryzowanie poprzez wpisy w tabeli konfiguracyjnej, które kolumnych wybranych tabel maja być audytowane i historyzowane.
 
 
 #### All features:
@@ -18,18 +18,18 @@ Pakiet pozwala poprzez wpisy w tabeli konfiguracyjnej na parametryzację, które
 
 ## Pre-requisites
 
-- **Oracle Database 12c** lub późniejsza (nie działa na wczesniejszych wersjach ze wzgledu na zmienę w 12c dot. kolumny Identity).
+- **Oracle Database 12c** lub późniejsza (nie działa na wczesniejszych wersjach ze wzgledu na zmianę w 12c dot. kolumny Identity).
 
-- **Oracle Application Express nie jest wymagany natomiast dla nowszych wersji APEX brak natywnej historyzacji (została wyłączona w Quick sql).
+- **Oracle Application Express** nie jest wymagany, natomiast dla nowszych wersji APEX brak natywnej historyzacji (została wyłączona w Quick sql).
 
-Wymaga grantów: GRANT CREATE TRIGGER,CREATE TABLE,CREATE SEQUENCE DLA "WŁASNEGO SCHEMATU";  
+Wymaga grantów: GRANT CREATE TRIGGER, CREATE TABLE, CREATE SEQUENCE DLA "WŁASNEGO SCHEMATU"  
 
 
 ## Installation instructions
 
-1. Pobierz najnowsza wersję
-2. Nadaj uprawnienia do w/w operacji
-3. Zainstaluj na swoich schemacie danych
+1. Pobierz najnowszą wersję.
+2. Nadaj uprawnienia do w/w operacji.
+3. Zainstaluj na swoim schemacie danych.
 
 
 ## Releases
